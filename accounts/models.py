@@ -17,5 +17,4 @@ class User(AbstractUser):
 class Admin(models.Model):
     username=models.CharField(max_length=100,default="Admin123")
     password=models.CharField(max_length=100,default="Admin123")
-    number=models.CharField(max_length=100,default="8471398761")
     email = models.EmailField(blank=True, null=True)
