@@ -123,7 +123,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-
 #for abstractUser
 
 AUTH_USER_MODEL = 'accounts.User'
